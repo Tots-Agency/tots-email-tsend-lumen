@@ -1,0 +1,38 @@
+{
+    "name": "tots/email-tsend-lumen",
+    "description": "The library for Lumen PHP",
+    "version": "0.0.1",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tots\\EmailTSend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matias Camiletti",
+            "email": "matias.camiletti@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "laravel/lumen-framework": "^9.0|^10.0",
+        "tots/email-lumen": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/tots-agency/tots-auth-lumen.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/tots-agency/tots-elofilter-lumen.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/tots-agency/tots-email-lumen.git"
+        }
+    ]
+}
