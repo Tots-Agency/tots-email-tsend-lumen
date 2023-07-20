@@ -19,7 +19,8 @@
     "require": {
         "php": "^8.0",
         "laravel/lumen-framework": "^9.0|^10.0",
-        "tots/email-lumen": "dev-main"
+        "tots/email-lumen": "dev-main",
+        "tots/tots-send-api": "dev-main"
     },
     "repositories": [
         {
@@ -28,7 +29,7 @@
         },
         {
             "type": "git",
-            "url": "https://github.com/tots-agency/tots-elofilter-lumen.git"
+            "url": "https://github.com/tots-agency/tots-send-public-api.git"
         },
         {
             "type": "git",

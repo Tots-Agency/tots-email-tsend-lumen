@@ -3,6 +3,7 @@
 namespace Tots\EmailTSend\Services;
 
 use Tots\Email\Services\TotsEmailService;
+use TotsSend\TotsSend;
 
 class TotsSendService implements TotsEmailService
 {
@@ -15,7 +16,7 @@ class TotsSendService implements TotsEmailService
 
     public function send($email, $template, $params = [])
     {
-        echo 'send-email';
-        exit();
+        $service = new TotsSend($this->config['key']);
+        return $service->send($email, $template, $params);
     }
 }
